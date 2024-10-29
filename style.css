@@ -5,17 +5,17 @@ body{
     margin:0;
 }
 h1{
-    font-size: 30px;
+    font-size: 125px;
     margin:10px ;
     margin-bottom: 30px;
     text-align: center;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 60px;
     padding: 10px;
     color: 2%;
-    margin: 20px ;
+    margin: 40px ;
     box-shadow: 0 0  10px blue;
     border-radius: 5px;
     margin-top: 5%;
@@ -23,16 +23,17 @@ h3{
 
 }
 .resume-container{
+    font-size: 50px;
     display: flex;
     background-color: white;
-    width: 80;
+    width: 50vw;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 .profile-picture{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     margin-top: 10%;
     margin-bottom: 15%;
     border-radius: 100%;
@@ -40,21 +41,20 @@ h3{
 .left-section{
     background-color: rgb(150, 146, 146);
     color:white;
-    padding:20px;
-    width: 35%;
+    padding:80px;
+    width: 45%;
     text-align: center;
     border-right: 5px solid rgb(166, 166, 253);
     
 }
-ul li{
-    margin: 5px 0;
-}
+
 .right-section{
-    padding: 20px;
-    width:65% ;
+    padding: 80px;
+    width:75% ;
     background-color: rgb(226, 219, 219) ;
 }
 button{
+    font-size: 40px;
     font-family: Arial, sans-serif;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
@@ -64,4 +64,54 @@ button{
 }
 button:hover{
     background-color: #ff737c;
+}
+@media only screen and (max-width:370px){
+    body{
+        padding:10px;
+    }
+    h1{
+        font-size: 20px;
+        margin:5px ;
+        margin-bottom: 5px;
+    }
+    h3{
+        font-size: 10px;
+        padding: 2px;
+        color: 0%;
+        margin: 10px ;
+        box-shadow: 0 0  5px blue;
+        border-radius: 2px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .resume-container{
+        font-size: 10px;
+        width: 70vw;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .profile-picture{
+        width: 50px;
+        height:50px;
+        margin-top: 4%;
+        margin-bottom: 6%;
+        border-radius: 2%;
+    }
+    .left-section{
+        padding: 10px;
+        width: 75%;
+        border-right: 3px solid rgb(166, 166, 253);
+    }
+    .right-section{
+        padding: 10px;
+        width:75% ;
+    }
+    button{
+        font-size: 8px;
+        border-radius: 10px;
+        box-shadow: 0 0 8px black;
+        margin-top: 4px;
+        margin-bottom: 9px;
+    }
 }
